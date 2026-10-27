@@ -119,6 +119,13 @@ export default function Navbar() {
         >
           Get in touch
         </Link>
+
+        <Link 
+          href="/review-intelligence" 
+          className="inline-block rounded-lg bg-blue-600 px-4 py-2 text-white font-medium hover:bg-blue-700"
+        >
+          Buka Dashboard Review Intelligence
+        </Link>
       </nav>
     </header>
   );
