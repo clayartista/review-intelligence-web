@@ -58,9 +58,7 @@ __pycache__/
 # Local vector index
 backend/data/chroma/
 
-
-
 # Ignore AI models
-backend/
 *.pt
 *.weights
+
