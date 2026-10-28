@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node scripts/dev.js",
+    "dev": "next dev",
     "dev:next": "node ./node_modules/next/dist/bin/next dev",
     "dev:vision": "node scripts/dev.js --vision-only",
-    "build": "node ./node_modules/next/dist/bin/next build",
-    "start": "node ./node_modules/next/dist/bin/next start",
-    "lint": "eslint",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "jest"
   },
   "dependencies": {
